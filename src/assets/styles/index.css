@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+html {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: var(--black);
+}
+
+:root {
+  --tomato: hsl(4, 100%, 67%);
+  --black: hsl(234, 29%, 20%);
+  --dark-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=index.css.map */
